@@ -1,0 +1,13 @@
+{
+  "name": "Ibrahim Ismail",
+  "title": "Frontend Developer",
+  "bio": "Passionate about building modern, scalable and user-friendly web applications.",
+  "skills": ["HTML", "CSS", "JavaScript", "Git", "REST APIs", "C#", "DotNet"],
+  "email": "ibrahim@email.com",
+  "github": "https://github.com/yourusername",
+  "linkedin": "https://linkedin.com/in/yourusername",
+  "fullBio": "I am a passionate developer with a background in design. I love turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you'll find me exploring new tech or contributing to open-source projects.",
+  "profileImage": "./assets/Gemini_Generated_Image_7byzu17byzu17byz.png",
+  "location": "Skopje, North Macedonia",
+  "experience": "1+ Years"
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Weather App",
+    "description": "A weather app using OpenWeather API and geolocation.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "image": "images/weather.png",
+    "github": "https://github.com/i-bro/avenga-homeworks/tree/main/JavaScript/wether-api",
+    "live": "#"
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce UI",
+    "description": "Frontend shopping interface with cart logic.",
+    "tech": ["JavaScript", "CSS", "HTML"],
+    "image": "images/shop.png",
+    "github": "#",
+    "live": "#"
+  },
+  {
+    "id": 3,
+    "title": "NexaNext",
+    "description": "CRUD app with localStorage support.",
+    "tech": ["JavaScript", "CSS", "HTML"],
+    "image": "images/tasks.png",
+    "github": "https://github.com/i-bro/avenga-homeworks/tree/main/JavaScript/project-NexaNext",
+    "live": "#"
+  }
+]
