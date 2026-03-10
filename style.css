@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -33,51 +33,21 @@ section {
   margin-top: 30px;
 }
 
-/* --- Navigation --- */
-/* .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
-  position: sticky;
-  top: 0;
-  background: rgba(15, 23, 42, 0.8);
-  backdrop-filter: var(--glass);
-  z-index: 100;
-}
-
-.nav-links {
-  /* display: flex; */
-  /* gap: 20px;
-  list-style: none;
-}
-
-.nav-links a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 500;
-  transition: 0.3s;
-}
-
-.nav-links a:hover {
-  color: var(--accent);
-} */ */
-.header{
+*/ .header {
   padding: 20px 10%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Vertical center */
-  align-items: center;     /* Horizontal center */
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .custom-navbar {
   background: rgba(15, 23, 42, 0.8) !important; /* Your --bg color */
   backdrop-filter: var(--glass);
-  padding: 1rem 10% !important; /* Matches your section padding */
+  padding: 1rem 10% !important;
   position: sticky;
   top: 0;
   z-index: 1000;
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 /* Fix link colors to use your variables */
@@ -92,46 +62,54 @@ section {
   color: var(--accent) !important;
 }
 
-
-
 /* --- Hero Section --- */
 .hero {
   text-align: center;
   /* padding: 120px 10% 60px;   */
 }
 
-.hero h1 { font-size: 3.5rem; margin-bottom: 10px;}
-.subtitle { color: var(--accent); font-size: 1.5rem; margin-bottom: 20px;}
-.bio-text { color: var(--gray); max-width: 600px; margin: 0 auto; }
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+.subtitle {
+  color: var(--accent);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.bio-text {
+  color: var(--gray);
+  max-width: 600px;
+  margin: 0 auto;
+}
 
 /* ---about--- */
 
 #about {
-    background: rgba(255, 255, 255, 0.02); /* Slightly different from hero to create a "section" feel */
-    border-radius: 20px;
-    margin: 40px 10%;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 20px;
+  margin: 40px 10%;
 }
 
 .about-img {
-    max-width: 300px;
-    border: 5px solid var(--accent);
-    transition: 0.4s ease;
+  max-width: 300px;
+  border: 5px solid var(--accent);
+  transition: 0.4s ease;
 }
 
 .about-img:hover {
-    transform: scale(1.05) rotate(2deg);
+  transform: scale(1.05) rotate(2deg);
 }
 
 .about-info li {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
 }
 
 .about-info strong {
-    color: var(--accent);
-    margin-right: 10px;
+  color: var(--accent);
+  margin-right: 10px;
 }
-
 
 /* --- Project Cards (Dynamic) --- */
 .project-card {
@@ -153,7 +131,7 @@ section {
 
 .tech-stack {
   display: flex;
-  
+
   flex-wrap: wrap;
   gap: 8px;
 }
@@ -201,4 +179,21 @@ section {
 .btn-link.primary {
   color: var(--accent);
   font-weight: bold;
+}
+
+.custom-input {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: var(--text) !important;
+  transition: 0.3s;
+}
+
+.custom-input:focus {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.25);
+}
+
+.custom-input::placeholder {
+  color: var(--gray);
 }
