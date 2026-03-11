@@ -5,8 +5,8 @@
     "description": "A weather app using OpenWeather API and geolocation.",
     "tech": ["HTML", "CSS", "JavaScript"],
     "image": "images/weather.png",
-    "github": "https://github.com/i-bro/avenga-homeworks/tree/main/JavaScript/wether-api",
-    "live": "#"
+    "github": "https://github.com/i-bro/weather-app-api.git",
+    "live": "https://i-bro.github.io/weather-app-api/"
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "description": "Frontend shopping interface with cart logic.",
     "tech": ["JavaScript", "CSS", "HTML"],
     "image": "images/shop.png",
-    "github": "#",
-    "live": "#"
+    "github": "https://github.com/i-bro/ecommerce.git",
+    "live": "https://i-bro.github.io/ecommerce/index.html"
   },
   {
     "id": 3,
@@ -23,7 +23,7 @@
     "description": "CRUD app with localStorage support.",
     "tech": ["JavaScript", "CSS", "HTML"],
     "image": "images/tasks.png",
-    "github": "https://github.com/i-bro/avenga-homeworks/tree/main/JavaScript/project-NexaNext",
-    "live": "#"
+    "github": "https://github.com/i-bro/nexa-next-mini-project.git",
+    "live": "https://i-bro.github.io/nexa-next-mini-project/"
   }
 ]
